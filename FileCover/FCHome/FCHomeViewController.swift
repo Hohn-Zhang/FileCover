@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FCViewController: UIViewController {
+class FCHomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

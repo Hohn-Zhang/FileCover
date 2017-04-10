@@ -8,26 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		343A57A9DB69E8686D928625 /* Pods_FileCover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEF516B77CF55A2603484A0 /* Pods_FileCover.framework */; };
+		9C6CB1B41E9B61FD00513839 /* IBDesignableOnePixelConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6CB1B31E9B61FD00513839 /* IBDesignableOnePixelConstant.m */; };
 		9C895B191E94E9E1003629C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C895B181E94E9E1003629C6 /* AppDelegate.swift */; };
-		9C895B1B1E94E9E1003629C6 /* FCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C895B1A1E94E9E1003629C6 /* FCViewController.swift */; };
-		9C895B1E1E94E9E1003629C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C895B1C1E94E9E1003629C6 /* Main.storyboard */; };
 		9C895B201E94E9E1003629C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C895B1F1E94E9E1003629C6 /* Assets.xcassets */; };
-		9C895B231E94E9E1003629C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C895B211E94E9E1003629C6 /* LaunchScreen.storyboard */; };
+		9CE4280D1E9B5CEA00C5A23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE428091E9B5CEA00C5A23B /* LaunchScreen.storyboard */; };
+		9CE4280E1E9B5CEA00C5A23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4280B1E9B5CEA00C5A23B /* Main.storyboard */; };
+		9CE428171E9B5E3800C5A23B /* FCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE428161E9B5E3800C5A23B /* FCHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CEF516B77CF55A2603484A0 /* Pods_FileCover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileCover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7897A9AED846AF1E3808B04D /* Pods-FileCover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileCover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileCover/Pods-FileCover.debug.xcconfig"; sourceTree = "<group>"; };
 		8A07EF16A5B37D3C9337FFA1 /* Pods-FileCover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileCover.release.xcconfig"; path = "Pods/Target Support Files/Pods-FileCover/Pods-FileCover.release.xcconfig"; sourceTree = "<group>"; };
+		9C6CB1B11E9B61FD00513839 /* FileCover-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileCover-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C6CB1B21E9B61FD00513839 /* IBDesignableOnePixelConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDesignableOnePixelConstant.h; sourceTree = "<group>"; };
+		9C6CB1B31E9B61FD00513839 /* IBDesignableOnePixelConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDesignableOnePixelConstant.m; sourceTree = "<group>"; };
 		9C895B151E94E9E1003629C6 /* FileCover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileCover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C895B181E94E9E1003629C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C895B1A1E94E9E1003629C6 /* FCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCViewController.swift; sourceTree = "<group>"; };
-		9C895B1D1E94E9E1003629C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C895B1F1E94E9E1003629C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C895B221E94E9E1003629C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C895B241E94E9E1003629C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C895B2E1E963F2A003629C6 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "../../Library/Developer/Xcode/DerivedData/FileCover-calcibmbkbqtqlfysgfbkjppgcqx/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework"; sourceTree = "<group>"; };
 		9C895B301E9641BC003629C6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9CE4280A1E9B5CEA00C5A23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CE4280C1E9B5CEA00C5A23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		9CE428161E9B5E3800C5A23B /* FCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +76,57 @@
 		9C895B171E94E9E1003629C6 /* FileCover */ = {
 			isa = PBXGroup;
 			children = (
+				9CE428131E9B5DBF00C5A23B /* FCCommon */,
+				9CE428121E9B5DB600C5A23B /* FCDataBase */,
+				9CE428111E9B5DA600C5A23B /* FCPerson */,
+				9CE428071E9B5C8800C5A23B /* FCHome */,
+				9CE428081E9B5CEA00C5A23B /* Base.lproj */,
 				9C895B181E94E9E1003629C6 /* AppDelegate.swift */,
-				9C895B1A1E94E9E1003629C6 /* FCViewController.swift */,
-				9C895B1C1E94E9E1003629C6 /* Main.storyboard */,
 				9C895B1F1E94E9E1003629C6 /* Assets.xcassets */,
-				9C895B211E94E9E1003629C6 /* LaunchScreen.storyboard */,
 				9C895B241E94E9E1003629C6 /* Info.plist */,
 			);
 			path = FileCover;
+			sourceTree = "<group>";
+		};
+		9CE428071E9B5C8800C5A23B /* FCHome */ = {
+			isa = PBXGroup;
+			children = (
+				9CE428161E9B5E3800C5A23B /* FCHomeViewController.swift */,
+			);
+			path = FCHome;
+			sourceTree = "<group>";
+		};
+		9CE428081E9B5CEA00C5A23B /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9CE428091E9B5CEA00C5A23B /* LaunchScreen.storyboard */,
+				9CE4280B1E9B5CEA00C5A23B /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		9CE428111E9B5DA600C5A23B /* FCPerson */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FCPerson;
+			sourceTree = "<group>";
+		};
+		9CE428121E9B5DB600C5A23B /* FCDataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FCDataBase;
+			sourceTree = "<group>";
+		};
+		9CE428131E9B5DBF00C5A23B /* FCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				9C6CB1B21E9B61FD00513839 /* IBDesignableOnePixelConstant.h */,
+				9C6CB1B31E9B61FD00513839 /* IBDesignableOnePixelConstant.m */,
+				9C6CB1B11E9B61FD00513839 /* FileCover-Bridging-Header.h */,
+			);
+			path = FCCommon;
 			sourceTree = "<group>";
 		};
 		ADC502F1E18EFF546F3CA2FF /* Frameworks */ = {
@@ -128,6 +175,7 @@
 					9C895B141E94E9E1003629C6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4HCMMLHLN3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,9 +203,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C895B231E94E9E1003629C6 /* LaunchScreen.storyboard in Resources */,
+				9CE4280E1E9B5CEA00C5A23B /* Main.storyboard in Resources */,
+				9CE4280D1E9B5CEA00C5A23B /* LaunchScreen.storyboard in Resources */,
 				9C895B201E94E9E1003629C6 /* Assets.xcassets in Resources */,
-				9C895B1E1E94E9E1003629C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,28 +264,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C895B1B1E94E9E1003629C6 /* FCViewController.swift in Sources */,
+				9CE428171E9B5E3800C5A23B /* FCHomeViewController.swift in Sources */,
 				9C895B191E94E9E1003629C6 /* AppDelegate.swift in Sources */,
+				9C6CB1B41E9B61FD00513839 /* IBDesignableOnePixelConstant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9C895B1C1E94E9E1003629C6 /* Main.storyboard */ = {
+		9CE428091E9B5CEA00C5A23B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C895B1D1E94E9E1003629C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9C895B211E94E9E1003629C6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C895B221E94E9E1003629C6 /* Base */,
+				9CE4280A1E9B5CEA00C5A23B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9CE4280B1E9B5CEA00C5A23B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE4280C1E9B5CEA00C5A23B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,12 +392,15 @@
 			baseConfigurationReference = 7897A9AED846AF1E3808B04D /* Pods-FileCover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4HCMMLHLN3;
 				INFOPLIST_FILE = FileCover/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FileCover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FileCover/FCCommon/FileCover-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -358,12 +410,14 @@
 			baseConfigurationReference = 8A07EF16A5B37D3C9337FFA1 /* Pods-FileCover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4HCMMLHLN3;
 				INFOPLIST_FILE = FileCover/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FileCover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FileCover/FCCommon/FileCover-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
